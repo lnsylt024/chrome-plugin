@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "My Chrome Extension",
+    "version": "1.0",
+    "description": "A simple Chrome extension that changes the background color",
+    "action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
